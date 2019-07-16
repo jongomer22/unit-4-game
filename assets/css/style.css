@@ -1,0 +1,130 @@
+/* Need to find a way to center the text in my h1
+from top to bottom */
+#main-container {
+    width: 414px;
+
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#main-p {
+    color: black;
+    background-color: pink;
+    height: 400px;
+    text-align: center;
+    font-weight: bold;
+    border: 10px;
+}
+
+body {
+
+    background-image: url("crystals-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+p1 {
+    border: 1px;
+    padding: 10px;
+    display: block;
+}
+
+p2 {
+    border: 1px;
+    padding: 10px;
+    display: block;
+}
+
+p3 {
+    border: 1px;
+    padding: 10px;
+    display: block;
+}
+
+p4 {
+    border: 1px;
+    padding: 10px;
+    display: block;
+}
+
+p5 {
+    border: 1px;
+    padding: 10px;
+    display: block;
+}
+
+#container {
+    display: flex;
+    border: 1px;
+    justify-content: left;
+    padding: 3px;
+}
+
+#player-score {
+    background-color: white;
+    width: 207px;
+    height: 100px;
+    border: 1px;
+    display: flex;
+}
+
+#wins-losses {
+    background-color: yellow;
+    font-family: Optima, sans-serif;
+    width: 207px;
+    height: 100px;
+    border: 1px;
+    display: -moz-inline-stack;
+    font-size: large;
+
+}
+
+#wins {
+    color: green;
+    height: 50px;
+    padding: 10px;
+}
+
+#losses {
+    color: red;
+    height: 50px;
+}
+
+#total-score-a {
+    color: navy;
+    background-color: aquamarine;
+    height: 50px;
+    padding: 10px;
+}
+
+#total-score-b {
+    color: white;
+    background-color: green;
+    height: 100px;
+}
+
+#crystals {
+    height:100px;
+    width: 100%;
+    display: inline-block;
+}
+
+#crystal-1 {
+    height:100px;
+}
+#crystal-2 {
+    height:100px;
+}
+#crystal-3 {
+    height:100px;
+}
+#crystal-4 {
+    height:100px;
+}
